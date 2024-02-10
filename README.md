@@ -24,3 +24,21 @@ Here are some features already implemented:
 ## Attention Points
 
 Implemented middleware that allows a task to be updated or deleted only by the user who created it. (Can also be done with Policy)
+
+## To execute the project, follow the steps below
+
+- Open the terminal, access the project folder and run the command composer install
+- Duplicate the .env.example file and rename it to .env
+- Change the line DB_CONNECTION=mysql to DB_CONNECTION=sqlite
+- Delete the following lines:
+     - DB_HOST=127.0.0.1
+     - DB_PORT=3306
+     - DB_DATABASE=laravel
+     - DB_USERNAME=root
+     - DB_PASSWORD=
+
+- Still in the terminal, run the command php artisan key:generate
+- Still in the terminal, run the command php artisan migrate
+- Still in the terminal, run the command npm install
+- Still in the terminal, run the command php artisan serve
+
