@@ -29,7 +29,7 @@ Implemented middleware that allows a task to be updated or deleted only by the u
 
 - Open the terminal, access the project folder and run the command composer install
 - Duplicate the .env.example file and rename it to .env
-- Change the line DB_CONNECTION=mysql to DB_CONNECTION=sqlite
+- Change the line DB_CONNECTION=mysql to DB_CONNECTION=sqlite. Type Yes when the console alerts you that the base does not exist
 - Delete the following lines:
      - DB_HOST=127.0.0.1
      - DB_PORT=3306
