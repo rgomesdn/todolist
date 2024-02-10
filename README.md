@@ -27,9 +27,9 @@ Implemented middleware that allows a task to be updated or deleted only by the u
 
 ## To execute the project, follow the steps below
 
-- Open the terminal, access the project folder and run the command composer install
-- Duplicate the .env.example file and rename it to .env
-- Change the line DB_CONNECTION=mysql to DB_CONNECTION=sqlite. Type Yes when the console alerts you that the base does not exist
+- Open the terminal, access the project folder and run the command **_composer install_**
+- Duplicate the **_.env.example_** file and rename it to **_.env_**
+- Change the line **_DB_CONNECTION=mysql_** to **_DB_CONNECTION=sqlite_**
 - Delete the following lines:
      - DB_HOST=127.0.0.1
      - DB_PORT=3306
@@ -37,8 +37,9 @@ Implemented middleware that allows a task to be updated or deleted only by the u
      - DB_USERNAME=root
      - DB_PASSWORD=
 
-- Still in the terminal, run the command php artisan key:generate
-- Still in the terminal, run the command php artisan migrate
-- Still in the terminal, run the command npm install
-- Still in the terminal, run the command php artisan serve
+- Still in the terminal, run the command **_php artisan key:generate_**
+- Still in the terminal, run the command **_npm install_**
+- Still in the terminal, run the command **_npm run build_**
+- Still in the terminal, run the command **_php artisan serve_**
+- To run tests with phpunit. Still in the terminal, run the command **_php artisan test_**
 
