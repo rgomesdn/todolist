@@ -27,7 +27,8 @@ Implemented middleware that allows a task to be updated or deleted only by the u
 
 ## To change the project(brand) name, follow the steps below
 
-- Open the .env file in the project root, and change the line **_APP_NAME=TODO_LIST_**  to  **_APP_NAME=YOUR_NAME_**
+- Open the .env file in the project root
+- Change the line **_APP_NAME=TODO_LIST_**  to  **_APP_NAME=YOUR_NAME_**
 
 ## To execute the project, follow the steps below
 
