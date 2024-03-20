@@ -25,6 +25,10 @@ Here are some features already implemented:
 
 Implemented middleware that allows a task to be updated or deleted only by the user who created it. (Can also be done with Policy)
 
+## To change the project(brand) name, follow the steps below
+
+- Open the .env file in the project root, and change the line **_APP_NAME=TODO_LIST_**  to  **_APP_NAME=YOUR_NAME_**
+
 ## To execute the project, follow the steps below
 
 - Open the terminal, access the project folder and run the command **_composer install_**
